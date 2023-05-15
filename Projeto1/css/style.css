@@ -1,0 +1,218 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo do menu de navegação */
+.navbar {
+  background-color: #f8f9fa;
+  font-size: 18px;
+}
+
+.navbar a {
+  color: #343a40;
+}
+
+.navbar a:hover {
+  color: #007bff;
+}
+
+/* Estilo dos ícones de mídias sociais */
+.navbar-nav .nav-link {
+  padding: 0;
+  margin: 0 10px;
+  color: #343a40;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Fim do menu nav */
+
+/* Inicio Banner Principal */
+.parallax-banner {
+  height: 100vh;
+  background-image: url('../img/natureza.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+
+.parallax-banner h1 {
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 10rem;
+}
+
+.parallax-banner p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2rem;
+}
+
+.parallax-banner button {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 0;
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 30px;
+}
+
+.parallax-banner button:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Fim do Banner principal */
+
+/* Inicio seção Problemas Ambientais */
+#problemas-ambientais {
+  background-color: #f8f9fa;
+  margin: 0;
+}
+
+#problemas-ambientais h2 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#problemas-ambientais p {
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+  
+}
+
+#problemas-ambientais li {
+  margin-bottom: 4rem;
+}
+
+#problemas-ambientais h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  
+}
+
+#problemas-ambientais p {
+  margin-bottom: 2rem;
+}
+
+#problemas-ambientais a.btn {
+  margin-right: 1rem;
+  
+}
+
+#problemas-ambientais a.btn:hover {
+  opacity: 0.8;
+}
+
+/* Fim seção Problemas Ambientais */
+
+/* Inico solucoes e dicas */
+#solutions {
+  margin: 0;
+}
+
+#solutions .card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#solutions .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#solutions .card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 10px;
+  }
+
+#solucoes-dicas h2 {
+  margin-top: 4rem;
+}
+
+#solucoes-dicas p{
+  font-size: 1.2rem;
+}
+ 
+/* Fim solucoes e dicas */
+
+
+/* Inicio do news */
+
+.news h2{
+  margin-top: 2rem;
+}
+
+.comments .btn {
+  margin-top: 2rem;
+}
+
+/* Fim do news */
+
+/* Inicio Footer */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+  font-size: 16px;
+}
+
+footer h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin-bottom: 10px;
+  margin-bottom: 0;
+  color: #999;
+  font-size: 14px;
+}
+
+footer ul.social-icons {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul.social-icons li:last-child {
+  margin-right: 0;
+}
+
+footer ul.social-icons li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+footer ul.social-icons li a:hover {
+  background-color: #555;
+}
+
+
+
+
+/* Fim Footer */
